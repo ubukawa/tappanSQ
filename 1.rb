@@ -1,4 +1,4 @@
-# for reprojection. (actually it is not needed)
+# for reprojection. 
 require './constants'
 require 'yaml'
 require 'json'
