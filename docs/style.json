@@ -1,8 +1,8 @@
 {
   "version": 8,
   "center": [
-    -91.993929,
-    46.842568
+     -82.218600,
+    41.292767
   ],
   "zoom": 17,
   "layers": [
@@ -45,11 +45,11 @@
   "sources": {
     "voxel": {
       "type": "vector",
-      "attribution": "PointCloud from pierotofy/drone_dataset_brighton_beach",
-      "minzoom": 14,
+      "attribution": "PointCloud from Steve V. M.",
+      "minzoom": 10,
       "maxzoom": 19,
       "tiles": [
-        "https://ubukawa.github.io/voxel-br/voxel/{z}/{x}/{y}.pbf"
+        "https://ubukawa.github.io/tappanSQ/voxel/{z}/{x}/{y}.pbf"
       ]
     }
   }
