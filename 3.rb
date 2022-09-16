@@ -3,7 +3,8 @@ require 'yaml'
 require 'json'
 
 z = ENV['Z'].to_i
-minzoom = (z == MINZOOM) ? MINCOPYZOOM : z
+#minzoom = (z == MINZOOM) ?  z : MINCOPYZOOM 
+minzoom = (z == MINZOOM) ?  MINCOPYZOOM  : z
 maxzoom = z
 spacing = (BASE ** (Z_ONE_METER - z)).to_f
 n = 0
