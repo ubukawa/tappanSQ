@@ -1,7 +1,7 @@
 SKIP = true
 
 TMP_DIR = 'src'
-Z_ONE_METER = 19
+Z_ONE_METER = 18
 BASE = 2
 
 MAXZOOM = 19
