@@ -49,7 +49,7 @@
       "minzoom": 10,
       "maxzoom": 19,
       "tiles": [
-        "https://ubukawa.github.io/tappanSQ/voxel-test/{z}/{x}/{y}.pbf"
+        "https://ubukawa.github.io/tappanSQ/voxel2/{z}/{x}/{y}.pbf"
       ]
     }
   }
