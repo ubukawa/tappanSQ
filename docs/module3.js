@@ -53,7 +53,7 @@ const showMap = async (texts) => {
     map.on('click', 'voxel', e => {
       let u = new SpeechSynthesisUtterance()
       u.lang = 'en-GB'
-      u.text = 'a voxel of ' + e.features[0].properties.spacing + 'meters.' + 'Height is' + e.features[1].properties.spacing + 'meter.'
+      u.text = 'a voxel of ' + e.features[0].properties.spacing + 'meters.' + 'Height is' + e.features[0].properties.h + 'meter.'
       if (voice) u.voice = voice
       speechSynthesis.cancel()
       speechSynthesis.speak(u)
